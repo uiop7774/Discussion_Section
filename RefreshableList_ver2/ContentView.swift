@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State var articles = ArticleFetcher(urlString: "http://140.115.3.108/api/v1/board").articles
     @State private var isShowing = false
-    
+    //asdsadasdasd
     var body: some View {
         NavigationView{
             List(articles, id: \.title){article in
